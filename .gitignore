@@ -1,0 +1,25 @@
+echo "
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Build outputs
+.next/
+build/
+dist/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"
