@@ -27,9 +27,14 @@ Application fullstack de gestion de tâches développée avec Next.js + Redux (f
 ### Installation
 ```bash
 # Cloner le repository
-git clone [votre-repo-url]
-cd todo-app
+git clone https://github.com/hmdmok/To-Do-List-App.git
+cd To-Do-List-App
 
 # Installer toutes les dépendances
 npm run install:all
 
+# Lunch the App servers Backend and Frontend
+npm run dev
+
+# Open the application
+ http://localhost:3000
