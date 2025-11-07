@@ -30,7 +30,6 @@ const DashboardCard: React.FC<DashboardCardProps> = ({ title, value, color }) =>
       <CardContent sx={{ p: 3, '&:last-child': { pb: 3 } }}>
         <Typography 
           variant="h6" 
-          component="h3" 
           color="text.secondary" 
           gutterBottom
           sx={{ fontWeight: 600 }}

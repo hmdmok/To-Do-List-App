@@ -7,8 +7,6 @@ import {
   Paper,
   CircularProgress,
   Alert,
-  Card,
-  CardContent,
 } from '@mui/material';
 import { taskService, DashboardStats } from '../../../../../services/taskService';
 import DashboardCard from './DashboardCard';
@@ -60,7 +58,7 @@ const Dashboard: React.FC = () => {
     <Container maxWidth="lg" sx={{ py: 4 }}>
       {/* Header */}
       <Box sx={{ mb: 4 }}>
-        <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom>
+        <Typography variant="h4" fontWeight="bold" gutterBottom>
           Dashboard
         </Typography>
         <Typography variant="body1" color="text.secondary">

@@ -108,7 +108,7 @@ const TasksPage: React.FC = () => {
       >
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid>
-            <Typography variant="h4" component="h1" fontWeight="bold" gutterBottom>
+            <Typography variant="h4" fontWeight="bold" gutterBottom>
               Task Management
             </Typography>
             <Typography variant="subtitle1" sx={{ opacity: 0.9 }}>
