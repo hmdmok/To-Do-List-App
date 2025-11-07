@@ -33,6 +33,3 @@ cd todo-app
 # Installer toutes les dépendances
 npm run install:all
 
-# Configurer les variables d'environnement
-cp backend/.env.example backend/.env
-# Éditer le fichier .env avec vos paramètres MySQL
