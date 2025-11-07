@@ -22,7 +22,7 @@ Application fullstack de gestion de tâches développée avec Next.js + Redux (f
 ### Pré-requis
 - Node.js 18+
 - Python 3.8+
-- MySQL
+- MySQL 8.0 CE
 
 ### Installation
 ```bash
