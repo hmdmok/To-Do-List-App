@@ -98,7 +98,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ task, onSubmit, onCancel, open }) =
       }}
     >
       <DialogTitle>
-        <Typography variant="h5" component="h2" fontWeight="600">
+        <Typography variant="h5" fontWeight="600">
           {task ? 'Edit Task' : 'Create New Task'}
         </Typography>
       </DialogTitle>

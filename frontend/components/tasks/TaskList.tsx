@@ -109,7 +109,6 @@ const TaskList: React.FC<TaskListProps> = ({
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 1 }}>
                     <Typography
                       variant="h6"
-                      component="span"
                       sx={{
                         ...(task.is_completed && {
                           textDecoration: 'line-through',
