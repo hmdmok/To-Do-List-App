@@ -4,7 +4,7 @@
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && python -m uvicorn main:app1 --reload",
-    "install:all": "npm install && cd frontend && npm install && cd ../backend && pip install -r requirements.txt && cd db && python create_database.py",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && python -m venv venv && pip install -r requirements.txt && cd db && python create_database.py",
     "build": "cd frontend && npm run build"
   },
   "devDependencies": {
