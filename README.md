@@ -4,7 +4,7 @@ Application fullstack de gestion de tâches développée avec Next.js + Redux (f
 
 ## Fonctionnalités implémentées
 
--- Page Task :
+### Page Task :
 
 * Affichage des tâches existantes.
 * Ajouter une nouvelle tâche.
@@ -12,7 +12,7 @@ Application fullstack de gestion de tâches développée avec Next.js + Redux (f
 * Supprimer une tâche.
 * Sélection multiple pour suppression des tâches.
 
--- Page Dashboard :
+### Page Dashboard :
 
 * Afficher le nombre total de tâches.
 * Afficher le nombre de tâches modifiées.
